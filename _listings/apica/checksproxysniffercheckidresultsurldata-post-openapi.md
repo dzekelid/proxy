@@ -6,12 +6,14 @@ info:
   title: Checks Proxysniffer Checks Proxy Sniffer Results URLdata
   version: 1.0.0
   description: Gets ProxySniffer check results in json format by result ids.
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/checks/proxysniffer ':
     ' post ':

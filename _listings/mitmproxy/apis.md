@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11752-mitm
 x-kinRank: "7"
 x-alexaRank: "219309"
 tags: Proxy
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/proxy/master/_listings/mitmproxy/apis.md
 specificationVersion: "0.14"
 apis: []

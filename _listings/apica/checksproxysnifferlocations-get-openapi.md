@@ -6,12 +6,14 @@ info:
   title: Checks Proxysniffer Checks Proxy Sniffer Locations
   version: 1.0.0
   description: Gets a list of all locations that are available for ProxySniffer checks.
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/checks/proxysniffer ':
     ' post ':

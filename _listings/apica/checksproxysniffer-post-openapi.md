@@ -6,12 +6,14 @@ info:
   title: Checks Proxysniffer Checks Proxy Sniffer
   version: 1.0.0
   description: Creates a new ProxySniffer check.
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/checks/proxysniffer ':
     ' post ':

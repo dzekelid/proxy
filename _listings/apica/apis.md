@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apic
 x-kinRank: "7"
 x-alexaRank: "876355"
 tags: Proxy
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/proxy/master/_listings/apica/apis.md
 specificationVersion: "0.14"
 apis:
@@ -90,6 +90,47 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/proxy/master/_listings/apica/checksproxysniffercheckidresultsresultiderrorlog-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/proxy/master/_listings/apica/checksproxysniffercheckidresultsresultiderrorlog-get-openapi.md
+- name: Scenarios API - Scenarios Proxy Sniffer Dictionaries
+  x-api-slug: scenariosproxysnifferdictionaries-post
+  description: Adds Proxy Sniffer scenario custom dictionary.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/proxy/master/_listings/apica/scenariosproxysnifferdictionaries-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/proxy/master/_listings/apica/scenariosproxysnifferdictionaries-post-openapi.md
+- name: Scenarios API - Scenarios Proxy Sniffer Dictionaries
+  x-api-slug: scenariosproxysnifferdictionariesdictionary-key-get
+  description: Gets a Proxy Sniffer scenario custom dictionary by dictionary key.
+    Custom dictionary can contain any data used by Proxy Sniffer scripts which needs
+    to be stored separately from scripts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/proxy/master/_listings/apica/scenariosproxysnifferdictionariesdictionary-key-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/proxy/master/_listings/apica/scenariosproxysnifferdictionariesdictionary-key-get-openapi.md
+- name: Scenarios API - Scenarios Proxy Sniffer Dictionaries
+  x-api-slug: scenariosproxysnifferdictionariesdictionary-key-put
+  description: Updates Proxy Sniffer scenario custom dictionary.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/proxy/master/_listings/apica/scenariosproxysnifferdictionariesdictionary-key-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/proxy/master/_listings/apica/scenariosproxysnifferdictionariesdictionary-key-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://apica.api.gallery.streamdata.io
